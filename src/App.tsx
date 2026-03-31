@@ -140,9 +140,14 @@ export default function App() {
               Ver Produtos
               <ChevronRight className="group-hover:translate-x-1 transition-transform" />
             </button>
-            <button className="glass px-10 py-5 rounded-full font-bold text-lg uppercase tracking-tighter hover:bg-white/10 transition-all">
+            <a 
+              href="https://maps.app.goo.gl/951CDLDTYefUjXD46" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="glass px-10 py-5 rounded-full font-bold text-lg uppercase tracking-tighter hover:bg-white/10 transition-all text-center"
+            >
               Nossa Localização
-            </button>
+            </a>
           </div>
         </div>
 
@@ -415,7 +420,14 @@ export default function App() {
             <ul className="space-y-6 text-white/40 font-medium">
               <li className="flex gap-3">
                 <MapPin className="text-brand-amber w-5 h-5 shrink-0" />
-                <span>R. Antônio Mascarenhas, 333 - Santa Terezinha II, Cel. Fabriciano - MG</span>
+                <a 
+                  href="https://maps.app.goo.gl/951CDLDTYefUjXD46" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="hover:text-brand-amber transition-colors"
+                >
+                  R. Antônio Mascarenhas, 333 - Santa Terezinha II, Cel. Fabriciano - MG
+                </a>
               </li>
               <li className="flex gap-3">
                 <Phone className="text-brand-amber w-5 h-5 shrink-0" />
