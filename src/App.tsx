@@ -102,9 +102,14 @@ export default function App() {
             <a href="#contato" className="hover:text-brand-amber transition-colors">Contato</a>
           </div>
 
-          <button className="bg-white text-black px-6 py-2 rounded-full font-bold text-sm uppercase tracking-tighter hover:bg-brand-amber transition-all duration-300">
+          <a 
+            href="https://wa.me/5531986056675" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="bg-white text-black px-6 py-2 rounded-full font-bold text-sm uppercase tracking-tighter hover:bg-brand-amber transition-all duration-300"
+          >
             Fale Conosco
-          </button>
+          </a>
         </nav>
       </header>
 
@@ -136,10 +141,15 @@ export default function App() {
           </p>
           
           <div className="hero-cta flex flex-col sm:flex-row items-center justify-center gap-4">
-            <button className="group bg-brand-amber text-black px-10 py-5 rounded-full font-black text-lg uppercase tracking-tighter flex items-center gap-3 hover:scale-105 transition-all duration-300">
+            <a 
+              href="https://wa.me/5531986056675" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="group bg-brand-amber text-black px-10 py-5 rounded-full font-black text-lg uppercase tracking-tighter flex items-center gap-3 hover:scale-105 transition-all duration-300"
+            >
               Ver Produtos
               <ChevronRight className="group-hover:translate-x-1 transition-transform" />
-            </button>
+            </a>
             <a 
               href="https://maps.app.goo.gl/951CDLDTYefUjXD46" 
               target="_blank" 
@@ -296,10 +306,15 @@ export default function App() {
               </div>
             </div>
 
-            <button className="flex items-center gap-4 group font-bold uppercase tracking-widest hover:text-brand-amber transition-colors">
+            <a 
+              href="https://wa.me/5531986056675" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex items-center gap-4 group font-bold uppercase tracking-widest hover:text-brand-amber transition-colors"
+            >
               Conheça nossa equipe
               <ArrowRight className="group-hover:translate-x-2 transition-transform" />
-            </button>
+            </a>
           </div>
         </div>
       </section>
@@ -396,10 +411,20 @@ export default function App() {
               Sua referência em Cel. Fabriciano para produtos pet, agropecuários e delícias da roça. Tradição e qualidade em cada detalhe.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="w-10 h-10 glass rounded-full flex items-center justify-center hover:bg-brand-amber hover:text-black transition-all">
+              <a 
+                href="https://instagram.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="w-10 h-10 glass rounded-full flex items-center justify-center hover:bg-brand-amber hover:text-black transition-all"
+              >
                 <Instagram className="w-5 h-5" />
               </a>
-              <a href="#" className="w-10 h-10 glass rounded-full flex items-center justify-center hover:bg-brand-amber hover:text-black transition-all">
+              <a 
+                href="https://wa.me/5531986056675" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="w-10 h-10 glass rounded-full flex items-center justify-center hover:bg-brand-amber hover:text-black transition-all"
+              >
                 <Phone className="w-5 h-5" />
               </a>
             </div>
