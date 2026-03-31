@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap');
+
+@theme {
+  --font-display: "Syne", sans-serif;
+  --font-sans: "Inter", sans-serif;
+  --color-brand-gold: #D4AF37;
+  --color-brand-amber: #FFBF00;
+  --color-dark-bg: #050505;
+  --color-dark-surface: #0a0a0a;
+}
+
+@layer base {
+  body {
+    @apply bg-dark-bg text-white font-sans antialiased selection:bg-brand-amber selection:text-black;
+  }
+}
+
+@utility glass {
+  @apply bg-white/5 backdrop-blur-xl border border-white/10;
+}
+
+@utility bento-card {
+  @apply glass rounded-3xl p-8 transition-all duration-500 hover:bg-white/10 hover:border-white/20;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.marquee-content {
+  display: flex;
+  animation: marquee 30s linear infinite;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+::-webkit-scrollbar-thumb {
+  background: #222;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #333;
+}
